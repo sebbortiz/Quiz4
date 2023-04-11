@@ -10,7 +10,7 @@ import UIKit
 import Foundation
 
 struct ImageGeneration {
-    static let apiKey = "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"
+    static let apiKey = "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"
     
     static func generateImage(prompt: String, n: Int, size:String, completion: @escaping (Result<Data, Error>) -> Void) {
         let urlString = "https://api.openai.com/v1/images/generations"
