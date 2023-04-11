@@ -7,7 +7,7 @@
 
 import Foundation
 
-let apiKey = "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"
+let apiKey = "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"
 
 func getSentiment(sentence: String, completion: @escaping (String?, Error?) -> Void) {
     let url = URL(string: "https://api.openai.com/v1/completions")!
