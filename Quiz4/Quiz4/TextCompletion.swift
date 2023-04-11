@@ -9,7 +9,7 @@ import Foundation
 
 struct TextCompletion {
     static func completeSentence(prompt: String, completion: @escaping (String?) -> Void) {
-        let apiKey = "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"
+        let apiKey = "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"
         let urlString = "https://api.openai.com/v1/completions"
         let headers = [
             "Content-Type": "application/json",
